@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StarWarsRPG!</title>
+    <link rel="stylesheet" href=assets/CSS/style.css>
+    <script type="javascript" href=assets/javascript/gameLogic.js></script>
+</head>
+<body>
+    <div class="titleMain">Star Wars RPG!</div>
+    <!-- MAIN GAME LOOP -->
+        <div id="mainGame">
+        <!-- USER CHARACTER SELECTION -->
+            <div id="charSelect">
+                <div class= "subTitle"> Choose Your Hero/Villian </div>
+            </div>
+            <!-- DISPLAYING THE USERS CHARACTER  -->
+            <div id="chosenChar"></div>
+                <div class="subTitle"> May The Force Be With</div>
+                <!-- ACTUAL IMG DISPLAY -->
+                <div id="charDisplay">
+            </div>
+            <!-- SECTION SHOWING THE ENIMIES AVALIABLE TO FIGHT  -->
+            <div id="avaliableEnimes">
+                <div class="subTitle"> Choose Your Foe </div>
+            </div>
+            <!-- SECTION WHERE THE FIGHTING HAPPENS  -->
+            <div class="subTitle"> THE ARENA </div>
+                <div id="arena">
+                    <!-- ATTACK BUTTON -->
+                    <button id="attackButton">Attack</button>
+                </div>
+                <!-- WHERE THE ENEMY IS -->
+            <div id="fightTime">
+                <div class="foeChar">
+                    <!-- ACTUAL ENEMY DISPLAY -->
+                    <div class="subTitle">Your Foe</div>
+                    <div id="foe"></div>
+                </div>
+            </div>
+        </div>
+        <!-- ALL IN GAME MESSAGES  -->
+    <div class="inGameMsg"></div>
+</body>
+</html>
